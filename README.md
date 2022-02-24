@@ -26,9 +26,14 @@
 
 Administración del sitio > Usuarios > Permisos > Definir roles > Gestionar roles > Añadir un nuevo rol
 
-> Nombre corto: API REST
+> **Nombre corto:** API REST
 
-> Tipos de contexto en que puede asignarse este rol: Sistema
+> **Tipos de contexto en que puede asignarse este rol:** Sistema
 
-> Usar protocolo REST webservice/rest:use: Permitir
+> **Usar protocolo REST webservice/rest:use:** Permitir
 
+- Asignar el rol creado al usuario para acceso
+
+Administración del sitio > Usuarios > Permisos > Asignar roles de sistema > API REST
+
+Busque el usuario que creó y dele agregar
