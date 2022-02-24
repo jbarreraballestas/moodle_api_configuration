@@ -27,9 +27,7 @@
 Administración del sitio > Usuarios > Permisos > Definir roles > Gestionar roles > Añadir un nuevo rol
 
 > **Nombre corto:** API REST
-
 > **Tipos de contexto en que puede asignarse este rol:** Sistema
-
 > **Usar protocolo REST webservice/rest:use:** Permitir
 
 - Asignar el rol creado al usuario para acceso
@@ -37,3 +35,30 @@ Administración del sitio > Usuarios > Permisos > Definir roles > Gestionar role
 Administración del sitio > Usuarios > Permisos > Asignar roles de sistema > API REST
 
 Busque el usuario que creó y dele agregar
+
+- Asegurese de que el usuario tiene el permiso Usar protocolo REST webservice/rest:use Sí
+
+**Paso 5. Seleccione un servicio**
+
+Administración del sitio > Servidor > Servicios Web > Seleccione un servicio > Agregar 
+
+> **Nombre:** servicioejemplo
+> **Habilitado:** Sí
+> **Únicamente usuarios autorizados:** Sí
+
+Guardar
+
+**Paso 6. Agregar funciones**
+
+Administración del sitio > Servidor > Servicios Web > Agregar funciones > Servicios personalizados > servicioejemplo > Funciones > Agregar funciones
+
+Busque las funciones que su servicio web / api usara y de click en agregar funciones
+
+**Paso 7. Seleccione un usuario específico**
+
+Administración del sitio > Servidor > Servicios Web > Agregar funciones > Servicios personalizados > servicioejemplo > Usuarios autorizados >
+
+Busque y agregue el usuario que hará uso del web service / api
+
+
+
