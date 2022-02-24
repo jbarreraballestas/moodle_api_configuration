@@ -1,7 +1,6 @@
 # moodle_api_configuration Probada en Moodle 3.11.5+
 ## Ayuda con la configuración de moodle para acceso via web service/api
 
-
 ## Identificado como usuario administrador: 
 
 **Administracion servicios web**
@@ -56,9 +55,33 @@ Busque las funciones que su servicio web / api usara y de click en agregar funci
 
 **Paso 7. Seleccione un usuario específico**
 
-Administración del sitio > Servidor > Servicios Web > Agregar funciones > Servicios personalizados > servicioejemplo > Usuarios autorizados >
+Administración del sitio > Servidor > Servicios Web > Seleccione un usuario específico > Servicios personalizados > servicioejemplo > Usuarios autorizados
 
 Busque y agregue el usuario que hará uso del web service / api
 
+**Paso 8. Crear ficha (token) para un usuario**
 
+Administración del sitio > Servidor > Servicios Web > Crear ficha (token) para un usuario > 
+
+> **Usuario:** usuarioapi
+> **Servicio:** servicioejemplo
+> **Restricción de IP:** 127.0.0.1
+
+Reemplaze la ip por la dirección ip pública desde donde se lanzaran las solicitudes al servicio web / api
+
+Guarda el token para realizar la prueba
+
+**Paso 10. Comprobar el servicio**
+
+Administración del sitio > Servidor > Servicios Web > Comprobar el servicio
+
+> **Método de identificación** token
+> **Protocolo** Protocolo REST
+> **Función** core_webservice_get_site_info
+
+> **token** 369e4e79c4b91c129ecce82d8513e9d7
+
+Reemplaza el token por el generado para tu usuario, ejecutamos y listo
+
+Ya estamos listos para comenzar el desarrollo de nuestro producto que hará uso de este web service
 
