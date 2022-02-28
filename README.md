@@ -1,5 +1,4 @@
 # Configuración API / Web Service Educativo Probada en versión 3.11.5+
-## Ayuda con la configuración de moodle para acceso via web service/api
 
 ## Identificado como usuario administrador: 
 
