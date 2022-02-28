@@ -26,7 +26,9 @@
 Administración del sitio > Usuarios > Permisos > Definir roles > Gestionar roles > Añadir un nuevo rol
 
 > **Nombre corto:** API REST
+> 
 > **Tipos de contexto en que puede asignarse este rol:** Sistema
+> 
 > **Usar protocolo REST webservice/rest:use:** Permitir
 
 - Asignar el rol creado al usuario para acceso
@@ -42,7 +44,9 @@ Busque el usuario que creó y dele agregar
 Administración del sitio > Servidor > Servicios Web > Seleccione un servicio > Agregar 
 
 > **Nombre:** servicioejemplo
+> 
 > **Habilitado:** Sí
+> 
 > **Únicamente usuarios autorizados:** Sí
 
 Guardar
@@ -64,7 +68,9 @@ Busque y agregue el usuario que hará uso del web service / api
 Administración del sitio > Servidor > Servicios Web > Crear ficha (token) para un usuario > 
 
 > **Usuario:** usuarioapi
+> 
 > **Servicio:** servicioejemplo
+> 
 > **Restricción de IP:** 127.0.0.1
 
 Reemplaze la ip por la dirección ip pública desde donde se lanzaran las solicitudes al servicio web / api
@@ -76,9 +82,11 @@ Guarda el token para realizar la prueba
 Administración del sitio > Servidor > Servicios Web > Comprobar el servicio
 
 > **Método de identificación** token
+> 
 > **Protocolo** Protocolo REST
+> 
 > **Función** core_webservice_get_site_info
-
+>
 > **token** 369e4e79c4b91c129ecce82d8513e9d7
 
 Reemplaza el token por el generado para tu usuario, ejecutamos y listo
