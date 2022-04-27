@@ -91,7 +91,8 @@ Administración del sitio > Servidor > Servicios Web > Comprobar el servicio
 Reemplaza el token por el generado para tu usuario, ejecutamos y listo
 
 **Inicio de sesión desde otro sistema - Nota: Esto abre una brecha de seguridad**
-> Agregar **$CFG->disablelogintoken = true;** en **config.php**
+
+Agregar **$CFG->disablelogintoken = true;** en **config.php**
 
 Ya estamos listos para comenzar el desarrollo de nuestro producto que hará uso de este web service
 
