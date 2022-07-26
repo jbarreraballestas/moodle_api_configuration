@@ -90,7 +90,7 @@ Administración del sitio > Servidor > Servicios Web > Comprobar el servicio
 
 Reemplaza el token por el generado para tu usuario, ejecutamos y listo
 
-**Inicio de sesión desde otro sistema - Nota: Esto abre una brecha de seguridad**
+**Inicio de sesión desde otro sistema - Nota: Esto abre una brecha de seguridad pero permite hacer login desde apps externas [mas info](https://docs.moodle.org/dev/Login_token)**
 
 Agregar 
 ```
